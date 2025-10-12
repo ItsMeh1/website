@@ -1,2 +1,2 @@
 # website
-Website for and org.
+Website for an org.
