@@ -1,4 +1,4 @@
-.body {
+body {
   font-family: Arial, sans-serif;
   text-align: center;
   padding-top: 50px;
@@ -8,7 +8,7 @@
 }
 
 /* Normal image with curved edges */
-.rounded-img {
+rounded-img {
   width: 200px;           /* adjust as needed */
   height: auto;           /* keeps proportions */
   border-radius: 15px;    /* curves the corners */
@@ -17,7 +17,7 @@
 }
 
 /* Background-style image (use a div) */
-.background-img1 {
+background-img1 {
   background-image: url("images/Global.png");
   background-size: cover;     /* fills container */
   background-position: center;
