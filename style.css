@@ -17,7 +17,7 @@ rounded-img {
 }
 
 /* NAVBAR */
-.navbar {
+navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,32 +31,32 @@ rounded-img {
   z-index: 1000;
 }
 
-.nav-logo {
+nav-logo {
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 1px;
 }
 
-.nav-links {
+nav-links {
   list-style: none;
   display: flex;
   gap: 30px;
   margin: 0;
 }
 
-.nav-links li a {
+nav-links li a {
   color: white;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
 }
 
-.nav-links li a:hover {
+nav-links li a:hover {
   color: #00bfff; /* Sky blue hover */
 }
 
 /* BACKGROUND SECTION */
-.background-img1 {
+background-img1 {
   background-image: url("images/Global.png");
   background-size: cover;
   background-position: center;
