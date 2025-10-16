@@ -29,7 +29,9 @@ body {
   left: 0;
   width: 100%;
   z-index: 1000;
+  box-sizing: border-box;
 }
+
 
 .nav-logo {
   font-size: 20px;
@@ -42,7 +44,11 @@ body {
   display: flex;
   gap: 30px;
   margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: flex-end;
 }
+
 
 .nav-links li a {
   color: white;
