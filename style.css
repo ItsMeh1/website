@@ -9,12 +9,31 @@ body {
 
 /* Normal image with curved edges */
 .rounded-img {
-  width: 200px;           /* adjust as needed */
+  width: 100%;           /* adjust as needed */
   height: auto;           /* keeps proportions */
-  border-radius: 15px;    /* curves the corners */
+  border-radius: 15px 15px 15px 15px;    /* curves the corners */
   object-fit: cover;      /* crops nicely if resized */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* optional: adds a shadow */
 }
+
+.mXdiv {
+  width: 100%;
+  max-width: 100%; /* or whatever fits your layout */
+  margin: 0 auto;    /* centers the container */
+  padding: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #0077cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+
 
 /* NAVBAR */
 .navbar {
@@ -70,11 +89,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  font-size: 24px;
+ color: white;
+  font-size: 24p x;
   text-align: center;
   padding: 0 20px;
-  border-radius: 0 0 20px 20px;
+  border-radius: 20px 20px 20px 20px;
   margin-top: 70px; /* adds space below navbar */
 }
-
