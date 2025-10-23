@@ -96,3 +96,18 @@ body {
   border-radius: 20px 20px 20px 20px;
   margin-top: 70px; /* adds space below navbar */
 }
+
+.annnouncment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(230, 69, 79, 0.8);
+  color: white;
+  padding: 15px 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-sizing: border-box;
+}
