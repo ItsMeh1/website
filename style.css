@@ -121,4 +121,6 @@ body {
   width: 100%;
   z-index: 1000;
   box-sizing: border-box;
+  max-height: 60px;       /* limit the height */
+  overflow: hidden; 
 }
